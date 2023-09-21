@@ -59,4 +59,4 @@ class Usuário (Produto, Carrinho_Compra):
         self.cont = 0
         for cliente in self.clientes:
             self.cont += 1
-            print(f"{self.cont}-> Nome: {cliente.getNome()}, Senha: {cliente.getSenha()}")
+            print(f"{self.cont}: Nome: {cliente.getNome()}, Senha: {cliente.getSenha()}")
